@@ -183,6 +183,4 @@ $tv('#tv_location').ok(function(){
 	tvArea.init(this.id);
 });
 
-
-
    
