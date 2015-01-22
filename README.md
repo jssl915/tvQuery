@@ -330,10 +330,6 @@ $tv('#tv_classify').ok(function(){linkSelect.init(this.id,obj)});
 
 //地区选择组件
 
-$tv('#tv_location').ok(function(){
-
-	tvArea.init(this.id);
-	
-});
+$tv('#tv_location').ok(function(){tvArea.init(this.id);});
 
    
