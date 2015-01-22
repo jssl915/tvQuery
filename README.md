@@ -6,6 +6,7 @@ tvQuery用于电视端开发的TV组件。
 由于用到一些CSS3的特性，所以在浏览器上使用时请使用支持CSS3的浏览器。
 tvQuery模拟了jQuery的调用方法，可以给组件元素绑定事件，添加属性。
 另支持ajax，alert框，confirm框等。
+
 API如下所示:
 
 //所有组件都有的方法
