@@ -116,8 +116,7 @@ $tv('#id').doKeyBoardMethod(function(){
 		...
 		
 	}
-	
-});
+    });
 
 $tv.loadInit({id:'tv_classify',data:data})   初始化方法，并将焦点放到id上
 
@@ -148,7 +147,7 @@ $tv.confirm({
 		
 	}
 	
-});
+    });
 
 //ajax方法
 
@@ -173,7 +172,6 @@ $tv.ajax({
 		// 此处放失败后执行的代码
 		
 	}
-	
 });
 
 //扩展组件
@@ -218,115 +216,116 @@ var obj = {
 		
 		{one:{id:'1',name:'美食'},
 		
-		 two:[{id:'1',name:'火锅'},
+		 two:[{	id:'1',name:'火锅'},
 			 
-		     {id:'1',name:'自助餐'},
+		     	{id:'1',name:'自助餐'},
 		     
-			  {id:'1',name:'西餐'},
+		     	{id:'1',name:'西餐'},
 			  
-			  {id:'1',name:'日韩料理'},
+		     	{id:'1',name:'日韩料理'},
 			  
-			  {id:'1',name:'蛋糕甜点'},
+			{id:'1',name:'蛋糕甜点'},
 			  
-			  {id:'1',name:'烧烤烤鱼'},
+		  	{id:'1',name:'烧烤烤鱼'},
 			  
-			  {id:'1',name:'川湘菜'},
+		  	{id:'1',name:'川湘菜'},
 			  
-			  {id:'1',name:'江浙菜'},
+		  	{id:'1',name:'江浙菜'},
 			  
-			  {id:'1',name:'京菜'},
+		  	{id:'1',name:'京菜'},
 			  
-			  {id:'1',name:'素食'},
+		  	{id:'1',name:'素食'},
 			  
-			  {id:'1',name:'清真菜'},
+  			{id:'1',name:'清真菜'},
 			  
-			  {id:'1',name:'台湾菜'},
+		  	{id:'1',name:'台湾菜'},
 			  
-			  {id:'1',name:'特色菜'},
+		  	{id:'1',name:'特色菜'},
 			  
-			  {id:'1',name:'咖啡酒吧'},
+		  	{id:'1',name:'咖啡酒吧'},
 			  
-			  {id:'1',name:'其它美食'}]},
+		  	{id:'1',name:'其它美食'}]},
 			  
-		{one:{id:'2',name:'酒店',level:0},
+		{one:	{id:'2',name:'酒店',level:0},
 		
-		 two:[{id:'2',name:'经济型酒店'},
+		 two:[	{id:'2',name:'经济型酒店'},
 		 
-		 	  {id:'2',name:'豪华酒店'}]},
+	 	  	{id:'2',name:'豪华酒店'}]},
 		 	  
-		{one:{id:'3',name:'电影'}},
+		{one:	{id:'3',name:'电影'}},
 		
-		{one:{id:'4',name:'休闲娱乐'},
+		{one:	{id:'4',name:'休闲娱乐'},
 		
-		 two:[{id:'4',name:'电影'},
+		 two:[	{id:'4',name:'电影'},
 		 
-			 {id:'4',name:'KTV'},
+		 	{id:'4',name:'KTV'},
 			 
-			 {id:'4',name:'温泉/洗浴'},
+		 	{id:'4',name:'温泉/洗浴'},
 			 
-			 {id:'4',name:'足疗按摩'},
+		 	{id:'4',name:'足疗按摩'},
 			 
-			 {id:'4',name:'运动健身'},
+		 	{id:'4',name:'运动健身'},
 			 
-			 {id:'4',name:'桌游/电玩'},
+		 	{id:'4',name:'桌游/电玩'},
 			 
-			 {id:'4',name:'密室逃脱'},
+		 	{id:'4',name:'密室逃脱'},
 			 
-			 {id:'4',name:'咖啡酒吧'},
+		 	{id:'4',name:'咖啡酒吧'},
 			 
-			 {id:'4',name:'演出赛事'},
+		 	{id:'4',name:'演出赛事'},
 			 
-			 {id:'4',name:'DIY手工'},
+		 	{id:'4',name:'DIY手工'},
 			 
-			 {id:'4',name:'真人CS'},
+		 	{id:'4',name:'真人CS'},
 			 
-			 {id:'4',name:'4D/5D电影'},
+		 	{id:'4',name:'4D/5D电影'},
 			 
-			 {id:'4',name:'其它娱乐'}]},
+		 	{id:'4',name:'其它娱乐'}]},
 			 
-		{one:{id:'5',name:'生活服务'},
+		{one:	{id:'5',name:'生活服务'},
 		
-		 two:[{id:'5',name:'母婴亲子'},
+		 two:[	{id:'5',name:'母婴亲子'},
 		 
-			 {id:'5',name:'摄影写真'},
+		 	{id:'5',name:'摄影写真'},
 			 
-			 {id:'5',name:'体检保健'},
+		 	{id:'5',name:'体检保健'},
 			 
-			 {id:'5',name:'汽车服务'},
+		 	{id:'5',name:'汽车服务'},
 			 
-			 {id:'5',name:'照片冲印'},
+		 	{id:'5',name:'照片冲印'},
 			 
-			 {id:'5',name:'培训课程'},
+		 	{id:'5',name:'培训课程'},
 			 
-			 {id:'5',name:'鲜花婚庆'},
+		 	{id:'5',name:'鲜花婚庆'},
 			 
-			 {id:'5',name:'服饰服务'},
+		 	{id:'5',name:'服饰服务'},
 			 
-			 {id:'5',name:'配镜'},
+		 	{id:'5',name:'配镜'},
 			 
-			 {id:'5',name:'其它生活'}]},
+		 	{id:'5',name:'其它生活'}]},
 			 
-		{one:{id:'6',name:'丽人'},
+		{one:	{id:'6',name:'丽人'},
 		
-		 two:[{id:'6',name:'美发'},
+		 two:[	{id:'6',name:'美发'},
 		 
-			 {id:'6',name:'美甲'},
+		 	{id:'6',name:'美甲'},
 			 
-			 {id:'6',name:'美容SPA'},
+		 	{id:'6',name:'美容SPA'},
 			 
-			 {id:'6',name:'瑜伽/舞蹈'}]},
+		 	{id:'6',name:'瑜伽/舞蹈'}]},
 			 
-		{one:{id:'7',name:'旅游'},
+		{one:	{id:'7',name:'旅游'},
 		
-		 two:[{id:'7',name:'本地/周边游'},
+		 two:[	{id:'7',name:'本地/周边游'},
 		 
-		 	 {id:'7',name:'景点门票'}]
+	 	 	{id:'7',name:'景点门票'}]
 		 	 
 		}
 		
 	]
 	
 }
+
 $tv('#tv_classify').ok(function(){linkSelect.init(this.id,obj)});
 
 //地区选择组件
